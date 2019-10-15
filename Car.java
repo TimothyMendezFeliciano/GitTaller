@@ -7,11 +7,19 @@ public class Car {
         this.price = 50;
     }
 
-    public getModel() {
+    public String getModel() {
         return this.model;
     }
 
-    public getPrice() {
+    public int getPrice() {
         return this.price;
+    }
+    
+    public void setPrice(int p) {
+    this.price = p;
+    }
+    
+    public void setModel(String m) {
+        this.model = m;
     }
 }
