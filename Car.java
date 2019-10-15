@@ -24,6 +24,7 @@ public class Car {
     }
     
     public void decreasePrice() {
+
      this.price = price-10%;   
     }
 }
