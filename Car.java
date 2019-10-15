@@ -22,4 +22,8 @@ public class Car {
     public void setModel(String m) {
         this.model = m;
     }
+    
+    public void decreasePrice() {
+     this.price = price -10;   
+    }
 }
