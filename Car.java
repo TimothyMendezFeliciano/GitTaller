@@ -1,21 +1,21 @@
 public class Car {
     private String model;
-    private int price;
+    private double price;
 
     public Car() {
         this.model = "Generic";
-        this.price = 50;
+        this.price = 50.00;
     }
 
     public String getModel() {
         return this.model;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return this.price;
     }
     
-    public void setPrice(int p) {
+    public void setPrice(double p) {
     this.price = p;
     }
     
@@ -24,6 +24,7 @@ public class Car {
     }
     
     public void decreasePrice() {
-     this.price = price -10;   
+
+     this.price = price-10%;   
     }
 }
